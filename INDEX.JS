@@ -10,3 +10,4 @@ function playNextTrack() {
 }
 
 audioPlayer.addEventListener('ended', playNextTrack);
+console.log('listener added')
