@@ -5,6 +5,7 @@ let currentTrackIndex = 0;
 function playNextTrack() {
   currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
   audioPlayer.src = tracks[currentTrackIndex];
+  console.log('skipped to next track!')
   audioPlayer.play();
 }
 
